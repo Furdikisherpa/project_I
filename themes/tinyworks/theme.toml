@@ -1,0 +1,20 @@
+
+name = "TinyWorks"
+license = "MIT"
+licenselink = "https://github.com/Nigh/tinyworks/blob/main/LICENSE"
+description = "Cute Works Show Theme For Hugo"
+homepage = "https://github.com/Nigh/tinyworks"
+tags = ["clean", "simple", "responsive", "light", "single-page"]
+features = []
+min_version = "0.41.0"
+paginate = 6
+
+[author]
+  name = "xianii"
+  homepage = "https://nigh.github.io/"
+  repo = "https://github.com/Nigh/tinyworks"
+
+[original]
+  name = "SimpleIntro"
+  homepage = "https://github.com/gangjun06/SimpleIntro"
+  repo = "https://github.com/gangjun06/SimpleIntro"

@@ -1,0 +1,13 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "Market"
+theme = "tinyworks"
+
+[params]
+    mainbg = "img/mainpage.png"
+    name = "下限Nico"
+    mainTitle = "Market"
+    mainText = "Welcome to  my Market"
+
+
+

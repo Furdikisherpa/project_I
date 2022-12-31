@@ -1,0 +1,12 @@
+baseURL = ""
+languageCode = "zh-cn"
+title = "口-口"
+theme = "tinyworks"
+author = "xianii"
+publishDir = "docs"
+
+[params]
+    mainbg = "img/sample_bg_pink_r.png"
+    name = "下限Nico"
+    mainTitle = "TinyWorks"
+    mainText = "只是做了一点微小的工作"
