@@ -1,13 +1,13 @@
 baseURL = "http://localhost"
 languageCode = "en-us"
-title = "Market"
+title = "Sumi's Love"
 theme = "tinyworks"
 
 [params]
-    mainbg = "img/mainpage.png"
-    name = "下限Nico"
-    mainTitle = "Market"
-    mainText = "Welcome to  my Market"
+    mainbg = "img/main.jpg"
+    name = "Sumi"
+    mainTitle = ""
+    mainText = "Welcome to  my crafting blog"
 
 
 
