@@ -1,11 +1,13 @@
 <nav class="flex justify-center min-w-full">
 	<a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline text-white flex-none relative justify-center items-center">{{$.Site.Title}}</a>
-	<div class="flex-grow max-w-md"></div>
-	<div class="flex right-10 relative justify-center items-center">
+	<div class="flex right-10 relative justify-center items-center text-3xl">
 		{{range (sort $.Site.Sections ".Params.weight").Reverse}}
 		<span class="flex mx-2">
-			<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer text-white no-underline tracking-tight border-none hover:font-bold hover: border-0 border-b-4 border-red-300 ">{{.Title}}</a>
+			<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer text-white no-underline tracking-tight border-none hover:font-bold hover: border-0 border-b-4 border-red-300">{{.Title}}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/</a>
 		</span>
 		{{end}}
+		  </div>
 	</div>
+	
 </nav>
+

@@ -5,9 +5,7 @@
 		<div class="text-3sm opacity-30 px-3 pt-3">{{$paginator.TotalNumberOfElements}}</div>
 	</div>
 	{{if gt $paginator.TotalPages 0}}
-		<div
-			class="mt-8 grid grid-flow-row grid-cols-2 mx-4 md:grid-cols-3 md:mx-8 gap-4"
-		>
+		<div class="mt-8 grid grid-flow-row grid-cols-2 mx-4 md:grid-cols-3 md:mx-8 gap-4" >
 		{{range $paginator.Pages}} {{partial "card.html" .}} {{end}}
 	{{else}}
 		<div class="mt-4 text-xl text-center">No more content</div>
@@ -24,4 +22,5 @@
 	{{end}}
 	</div>
 {{end}}
+
 

@@ -1,13 +1,12 @@
 baseURL = "http://localhost"
 languageCode = "en-us"
-title = "Sumi's Love"
+title = ""
 theme = "tinyworks"
 
 [params]
     mainbg = "img/main.jpg"
     name = "Sumi"
-    mainTitle = ""
-    mainText = "Welcome to  my crafting blog"
+    mainText = "Sumi's Love"
 
 
 

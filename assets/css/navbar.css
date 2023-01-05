@@ -25,7 +25,6 @@ nav .logo {
 	letter-spacing: 2px;
 }
 
-nav.onscroll .logo,
-nav.onscroll ul li a {
+nav.onscroll .logo,nav.onscroll ul li a {
 	color: rgb(167, 60, 230);
 }

@@ -1,4 +1,4 @@
 ---
 title: "All"
-# id: "all"
+id: "all"
 ---
