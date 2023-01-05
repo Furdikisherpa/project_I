@@ -6,7 +6,8 @@ theme = "tinyworks"
 [params]
     mainbg = "img/main.jpg"
     name = "Sumi"
-    mainText = "Sumi's Love"
+    maintitle = "Sumi's Love"
+    
 
 
 

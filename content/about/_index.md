@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "All"
 id: "about"
 ---
 
