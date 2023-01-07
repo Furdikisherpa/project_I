@@ -1,17 +1,17 @@
-<section id="{{.Params.id}}" class="mt-12 place-content-center">
+<section id="{{.Params.id}}" class="mt-12 place-content-center" style="background-color: dimgray; margin-top: -35px;">
 	{{$paginator := .Paginate (sort .RegularPages .Params.date) 6}}
 	<div class="flex justify-center">
 		<!-- <div class="text-3xl title-deco tracking-wide">{{.Title}}</div> -->
 		<!-- <div class="text-3sm opacity-30 px-3 pt-3">{{$paginator.TotalNumberOfElements}}</div> -->
 	</div>
 	{{if gt $paginator.TotalPages 0}}
-		<div class="mt-8 grid grid-flow-row grid-cols-2 mx-4 md:grid-cols-3 md:mx-8 gap-4" >
+		<div class="mt-8 grid  grid-cols-4 mx-4 md:grid-cols-3 md:mx-9 gap-4">
 		{{range $paginator.Pages}} {{partial "card.html" .}} {{end}}
 	{{else}}
-		<!-- <div class="mt-4 text-xl text-center">No more content</div> -->
-		<div>
+		<div class="mt-4 text-xl text-center">No more content</div>
+		<!-- <div>
 			{{ partial "aboutus.html" .}}
-		</div>
+		</div> -->
 
 	{{end}}
 </section>

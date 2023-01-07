@@ -20,20 +20,27 @@
 	</span>
 		</div> -->
 
-	<div class="flex" style="background-color: dimgrey;">
-			<a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline  flex-none relative justify-center items-center">{{$.Site.Title}}</a>
+	<div class="flex" style="background-color: dimgrey; height: 50px; padding-top: 7px;">
+			<a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline  flex-none relative text-white justify-center items-center">{{$.Site.Title}}</a>
 			<div class="flex-grow max-w-md"></div>
-			<div class="flex right-10 relative justify-center items-center text-3xl">
+			<div class="flex right-10 relative justify-center items-center text-xl" style="margin-left: -270px; font-family: Arial, Helvetica, sans-serif;">
 				{{range (sort $.Site.Sections ".Params.weight").Reverse}}
 				<span class="flex mx-2">
-					<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer no-underline tracking-tight border-none hover:font-bold border-0 border-b-4 border-red-300 ">{{.Title}}</a>
+					<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer no-underline text-white tracking-tight border-none hover:font-bold border-0 border-b-4 border-red-300 ">{{.Title}}</a>
 				</span>
 				{{end}}
 			</div>
-			<div style="margin-top: 10px;">
+			<div style="margin-top: 15px; margin-left: 310px;">
 				<a href=#><img src="/img/magnifying-glass.png" width="20" height="20"></a>&nbsp
 				<a href="#"><img src="/img/user.png" width="20" height="20"></a>&nbsp
 				<a href="#"><img src="/img/shopping-bag.png" width="20" height="20"></a>&nbsp;
 				<a href="#"><img src="/img/nepal.png" width="20" height="20"></a>
+				<select name="Language">
+					<option value="Language">Nepali</option>
+					<option value="Language">Chinese</option>
+					<option value="Language">Japanese</option>
+					<option value="Language">Bhutanese</option>
+					<option value="Language">Indian</option>
+				</select>
 			</div>
 		</div>

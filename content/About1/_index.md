@@ -1,4 +1,0 @@
----
-title: "Gents"
-id: "Gents"
----

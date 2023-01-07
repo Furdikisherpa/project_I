@@ -1,4 +1,0 @@
----
-title: "Ladies"
-type: sale
----

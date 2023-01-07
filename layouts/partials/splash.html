@@ -1,6 +1,6 @@
 <div
 		id="mainBG"
-		style="background-image: url('{{if $.Site.Params.mainbg}}{{$.Site.Params.mainbg}}{{else}}/img/sample_bg_blue_r.png{{end}}');"
+		style="background-image: url('{{if $.Site.Params.mainbg}}{{$.Site.Params.mainbg}}{{else}}/img/sample_bg_blue_r.png{{end}}'); height:650px;"
 	>
     <!-- <div
         class="wave wave1"
@@ -25,16 +25,20 @@
             {{else}}TinyWorks{{end}}
         </div> -->
         {{partial "mainpageimg.html" .}}
-        <div class="text-6xl font-bold text-center">
+        <!-- <div class="text-6xl font-bold text-center">
             {{if $.Site.Params.maintitle}}{{$.Site.Params.maintitle}}
             {{else}}Edit config.toml/params{{end}}
-        </div>
+        </div> -->
         
     </div>
     
-</div>
-<p>Webster's Dictionary defines handmade as an item made by hand or by a hand process. It was first used in the early seventeenth century. Other definitions include the aspect of craftsmanship and imply that a handmade item is typically of higher quality than one mass produced by a machine. Because humans are not machines, many retailers remind customers that handmade products may feature inconsistencies or slight flaws. Those are signs that the product wasn't mass produced.
+</div >
+<div style="background-color: dimgray; height: 80px; margin-top: -30px; ">
+    <p style="text-align: center; padding-top: 20px; font-weight:bold; font-size: 30px; color: white;">NEW ARRIVAL</p>
 
-    Some online communities state that the terms "hand-assembled," "handcrafted" and "hand-altered" are acceptable and synonymous with handmade. Those words insinuate that though the fundamental materials weren't built from scratch, the seller has added his or her own twist to the product. Other sites prefer the term "designer-maker." This is applied to ecommerce retailers and artists who are integral to or solely responsible for both the design of an item and its creation.
-    
-    "Shoppers value honesty and creativity; they do not like to be led astray."</p>
+</div>
+
+<!-- <div>
+    {{- partial "slideshow.html" . -}}
+</div> -->
+

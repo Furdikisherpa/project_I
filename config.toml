@@ -1,10 +1,10 @@
 baseURL = "http://localhost"
 languageCode = "en-us"
-title = "Luga Pasal"
+title = "Wardrobe"
 theme = "tinyworks"
 
 [params]
-    mainbg = "img/main.jpg"
+    mainbg = "/img/END OF SEASON SALE (1).png"
     name = "Sumi"
     maintitle = "Sumi's Love"
     

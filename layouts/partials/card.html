@@ -1,5 +1,5 @@
 
-<div class="w-full rounded overflow-hidden shadow-lg hover:border-opacity-60 hover:opacity-80 ">
+<div class="w-full overflow-hidden hover:border-opacity-60 hover:opacity-80 ">
 	{{if .Params.link}}
 	<a href="{{.Params.link}}">
 	{{else if .Params.extlink}}
@@ -8,9 +8,9 @@
 	<a>
 	{{end}}
 	{{if .Params.image}}
-		<img class="h-70 lg:h-72 w-full object-cover" src="{{.Site.BaseURL}}/{{.Params.image}}" />
+		<img class="h-20 lg:h-25 w-full object-cover" src="{{.Site.BaseURL}}/{{.Params.image}}" />
 	{{else}}
-	<div class="h-24 lg:h-36 w-full object-cover bg-gray-400">No Picture</div>
+	<!-- <div class="h-24 lg:h-36 w-full object-cover bg-gray-400">No Picture</div> -->
 	{{end}}
 	</a>
 	<div class="px-6 py-4">
