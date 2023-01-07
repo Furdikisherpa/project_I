@@ -1,4 +1,4 @@
 ---
-title: "About us"
-id: "about us"
+title: "Gents"
+id: "Gents"
 ---

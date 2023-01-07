@@ -1,5 +1,5 @@
 ---
-title: "Diy"
-id: "Diy"
+title: "Sale"
+id: "Ladies"
 weight: 99
 ---

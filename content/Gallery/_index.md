@@ -1,4 +1,4 @@
 ---
-title: "Gallery"
-type: gallery
+title: "Ladies"
+type: sale
 ---

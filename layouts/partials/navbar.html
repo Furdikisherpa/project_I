@@ -1,13 +1,39 @@
-<nav class="flex justify-center min-w-full">
+<!-- <nav class="flex justify-center min-w-full py-4">
 	<a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline text-white flex-none relative justify-center items-center">{{$.Site.Title}}</a>
 	<div class="flex right-10 relative justify-center items-center text-3xl">
 		{{range (sort $.Site.Sections ".Params.weight").Reverse}}
 		<span class="flex mx-2">
-			<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer text-white no-underline tracking-tight border-none hover:font-bold hover: border-0 border-b-4 border-red-300">{{.Title}}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/</a>
+			<a href="{{ .RelPermalink }}" class="text-2xl sm:text-4xl px-2 py-1 m-1 cursor-pointer text-black no-underline rounded hover:font-bold">{{.Title}}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/</a>
 		</span>
 		{{end}}
 		</div>
 	</div>
 	
-</nav>
+</nav> -->
+	<!-- <a href="{{$.Site.BaseURL}}">{{$.Site.Title}}</a> -->
 
+	<!-- <div class="flex right-10 relative  text-3xl" style="background-color: dimgray; margin-left: 40px; width: 100%; height: 60px;">
+		<span class="flex mx-2">
+		{{range (sort $.Site.Sections ".Params.weight").Reverse}}
+			<a href="{{ .RelPermalink }}" class="text-2xl  text-center no-underline hover:font-bold" style="margin-top: 15px;">{{.Title}}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+		{{end}}
+	</span>
+		</div> -->
+
+	<div class="flex" style="background-color: dimgrey;">
+			<a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline  flex-none relative justify-center items-center">{{$.Site.Title}}</a>
+			<div class="flex-grow max-w-md"></div>
+			<div class="flex right-10 relative justify-center items-center text-3xl">
+				{{range (sort $.Site.Sections ".Params.weight").Reverse}}
+				<span class="flex mx-2">
+					<a href="{{ .RelPermalink }}" class="px-1 cursor-pointer no-underline tracking-tight border-none hover:font-bold border-0 border-b-4 border-red-300 ">{{.Title}}</a>
+				</span>
+				{{end}}
+			</div>
+			<div style="margin-top: 10px;">
+				<a href=#><img src="/img/magnifying-glass.png" width="20" height="20"></a>&nbsp
+				<a href="#"><img src="/img/user.png" width="20" height="20"></a>&nbsp
+				<a href="#"><img src="/img/shopping-bag.png" width="20" height="20"></a>&nbsp;
+				<a href="#"><img src="/img/nepal.png" width="20" height="20"></a>
+			</div>
+		</div>

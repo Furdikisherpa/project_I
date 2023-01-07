@@ -1,6 +1,6 @@
 baseURL = "http://localhost"
 languageCode = "en-us"
-title = ""
+title = "Luga Pasal"
 theme = "tinyworks"
 
 [params]
