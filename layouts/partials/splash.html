@@ -37,8 +37,11 @@
     <p style="text-align: center; padding-top: 20px; font-weight:bold; font-size: 30px; color: white;">NEW ARRIVAL</p>
 
 </div>
-
-<!-- <div>
+<!-- 
+<div>
     {{- partial "slideshow.html" . -}}
 </div> -->
+{{range first 1 (sort .Site.Sections ".Params.weight").Reverse}}
+		{{partial "contentlist.html" .}}
+		{{end}} 
 

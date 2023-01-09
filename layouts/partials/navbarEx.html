@@ -1,11 +1,11 @@
 <div class="flex justify-center min-w-full py-2" style="background-color: dimgray;">
-	<div class="flex right-10 relative justify-center items-center text-4xl">
+	<div class="flex right-10 relative justify-center items-center text-4xl" >
 		<span class="flex mx-2">
-			<a href="{{$.Site.BaseURL}}" class="text-2xl sm:text-xl px-2 py-1 m-1 cursor-pointer text-white no-underline rounded hover:font-bold">Home &nbsp&nbsp&nbsp/</a>
+			<a href="{{$.Site.BaseURL}}" class="text-2xl sm:text-xl px-2 py-1 m-1 cursor-pointer text-white no-underline rounded hover:font-bold">Home &nbsp&nbsp&nbsp</a>
 		</span>
 		{{range (sort $.Site.Sections ".Params.weight").Reverse}}
 		<span class="flex mx-2">
-			<a href="{{ .RelPermalink }}" class="text-2xl sm:text-xl px-2 py-1 m-1 cursor-pointer text-white no-underline rounded hover:font-bold">{{.Title}} &nbsp&nbsp&nbsp/</a>
+			<a href="{{ .RelPermalink }}" class="text-2xl sm:text-xl px-2 py-1 m-1 cursor-pointer text-white no-underline rounded hover:font-bold">{{.Title}} &nbsp&nbsp&nbsp</a>
 		</span>
 		{{end}}
 	</div>
