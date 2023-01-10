@@ -1,5 +1,4 @@
----
+<!-- ---
 title: "Sale"
-id: "Ladies"
-weight: 99
----
+type: sale
+--- -->

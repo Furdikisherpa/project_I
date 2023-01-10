@@ -1,4 +1,5 @@
 ---
-title: "Ladies"
-type: sale
+title: "Gents"
+id: "Gents"
+weight: 99
 ---

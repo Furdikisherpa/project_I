@@ -2,46 +2,13 @@
 		id="mainBG"
 		style="background-image: url('{{if $.Site.Params.mainbg}}{{$.Site.Params.mainbg}}{{else}}/img/sample_bg_blue_r.png{{end}}'); height:650px;"
 	>
-    <!-- <div
-        class="wave wave1"
-        style="background-image: url('{{.Site.BaseURL}}/img/wave.webp');"
-    ></div>
-    <div
-        class="wave wave2"
-        style="background-image: url('{{.Site.BaseURL}}/img/wave.webp');"
-    ></div>
-    <div
-        class="wave wave3"
-        style="background-image: url('{{.Site.BaseURL}}/img/wave.webp');"
-    ></div>
-    <div
-        class="wave wave4"
-        style="background-image: url('{{.Site.BaseURL}}/img/wave.webp');"
-    ></div> -->
-
-    <div class="centerAll">
-        <!-- <div class="title text-6xl font-bold text-center">
-            {{if $.Site.Params.maintitle}}{{$.Site.Params.maintitle}}
-            {{else}}TinyWorks{{end}}
-        </div> -->
-        {{partial "mainpageimg.html" .}}
-        <!-- <div class="text-6xl font-bold text-center">
-            {{if $.Site.Params.maintitle}}{{$.Site.Params.maintitle}}
-            {{else}}Edit config.toml/params{{end}}
-        </div> -->
-        
-    </div>
     
 </div >
 <div style="background-color: dimgray; height: 80px; margin-top: -30px; ">
     <p style="text-align: center; padding-top: 20px; font-weight:bold; font-size: 30px; color: white;">NEW ARRIVAL</p>
 
 </div>
-<!-- 
-<div>
-    {{- partial "slideshow.html" . -}}
-</div> -->
-{{range first 1 (sort .Site.Sections ".Params.weight").Reverse}}
-		{{partial "contentlist.html" .}}
-		{{end}} 
 
+ <div>
+    {{- partial "mainpageimg.html" . -}}
+</div> 

@@ -87,9 +87,9 @@
 
 .font-extralight{font-weight:200}
 
-.h-36{height:77rem}
+.h-36{height:8rem}
 
-.h-24{height:6rem}
+.h-24{height: 8rem}
 
 .text-6xl{font-size:3.75rem;line-height:1}
 
@@ -179,4 +179,4 @@
 .col-start-3{grid-column-start:3}
 .col-start-2{grid-column-start:2}
 .col-end-5{grid-column-end:5}
-.col-end-6{grid-column-end:6}@media (min-width: 700px){.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width: 768px){.md\:flex{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.md\:font-normal{font-weight:400}.md\:text-sm{font-size:0.875rem;line-height:1.25rem}.md\:mx-8{margin-left:2rem;margin-right:2rem}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:h-72{height:6rem}.lg\:h-36{height:9rem}.lg\:text-base{font-size:1rem;line-height:1.5rem}}
+.col-end-6{grid-column-end:6}@media (min-width: 700px){.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width: 768px){.md\:flex{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.md\:font-normal{font-weight:400}.md\:text-sm{font-size:0.875rem;line-height:1.25rem}.md\:mx-8{margin-left:2rem;margin-right:2rem}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:h-72{height:30rem}.lg\:h-36{height:9rem}.lg\:text-base{font-size:1rem;line-height:1.5rem}}

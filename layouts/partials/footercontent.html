@@ -1,0 +1,41 @@
+<div style="margin-top:115px; background-color: dimgray; ">
+    <br><br><a href="{{$.Site.BaseURL}}" class="text-3xl font-bold uppercase no-underline  flex-none relative text-black justify-center items-center" style="margin-left: 50px; color: white;;">{{$.Site.Title}}</a><br>
+</div>
+
+
+<div style="background-color: dimgray;">
+<table cellspacing="20px"  width="90%" style="margin-left: 110px;" >
+    <tr>
+        <td><p style="font-size: 24px; font-weight: bold; color: white;">Contact Info</p></td>
+        <td><p style="font-size: 24px; font-weight: bold; color: white;">Sitemap</p></td>
+        <td><p style="font-size: 24px; font-weight: bold; color: white;">Social Media</p></td>
+        <td><p style="font-size: 24px; font-weight: bold; color: white; ">We help brands:</p></td>
+    </tr>
+    <tr>
+        <td><p style="color: white; margin-top: -50px; width:fit-content;">713 Elmwood St.</p>
+            <p style="color: white;">Prior Lake, MN 55372 </p>
+            <p style="color: white;">409-896-1444 </p>
+            <a href="mailto:furdikilama04@gmail.com" style="color: white; text-decoration: none;">info@wardrobe</a> 
+        </td>
+        <td rowspan="4"><p style="margin-top: -10px;">{{range (sort $.Site.Sections ".Params.weight").Reverse}}
+            <span  style="display: block;" >
+             <p><a href="{{ .RelPermalink }}" class="px-1 cursor-pointer no-underline text-white">{{.Title}}</a></p>
+            </span>
+            {{end}}
+        </p>
+        </td>
+        <td><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: white; display: block; margin-top: -30px;">Facebook</a><br>
+            <a href="instagram.com" style="text-decoration: none; color: white; display: block;">Instagram</a><br>
+            <a href="#" style="text-decoration: none; color: white; display: block;">GitHub</a><br>
+            <a href="https://www.youtube.com/" style="text-decoration: none; color: white; display: block;">Youtube</a>
+        </td>
+        <td><p style="color: white; margin-top: -30px;">develop design solution</p>
+            <p style="color: white;">produce valuable cultural content</p>
+            <p style="color: white;">create fresh brand experience</p>
+            <p style="color: white;">create fresh brand experience</p>
+        </td>
+    </tr>
+
+</table>
+
+</div>

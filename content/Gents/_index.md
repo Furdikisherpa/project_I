@@ -1,4 +1,4 @@
 ---
-title: "Gents"
-id: "Gents"
+title: "Ladies"
+type: "Ladies"
 ---
